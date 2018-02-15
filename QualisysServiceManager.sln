@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualisysServiceManager", "QualisysServiceManager\QualisysServiceManager.csproj", "{F5204CD0-0F34-402A-928E-4F3E65CADFBC}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "QualisysServiceManagerInstaller", "QualisysServiceManagerInstaller\QualisysServiceManagerInstaller.vdproj", "{9C8D5080-C927-48FD-A0F4-654244FC110C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{F5204CD0-0F34-402A-928E-4F3E65CADFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5204CD0-0F34-402A-928E-4F3E65CADFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5204CD0-0F34-402A-928E-4F3E65CADFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8D5080-C927-48FD-A0F4-654244FC110C}.Debug|Any CPU.ActiveCfg = Debug
+		{9C8D5080-C927-48FD-A0F4-654244FC110C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
