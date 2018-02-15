@@ -183,7 +183,12 @@ namespace QualisysServiceManager
 
         private string[] GetAllLogFiles(string pStrServicePath)
         {
-            return Directory.GetFiles(pStrServicePath, "*.log", SearchOption.AllDirectories);
+            List<string> lLstStrResult = new List<string>();
+
+            lLstStrResult.AddRange(Directory.GetFiles(pStrServicePath, "*.log", SearchOption.AllDirectories).ToList());
+            lLstStrResult.AddRange(Directory.GetFiles(pStrServicePath, "*.txt", SearchOption.AllDirectories).ToList());
+
+            return lLstStrResult.ToArray();
         }
 
         private string GetPathService()
