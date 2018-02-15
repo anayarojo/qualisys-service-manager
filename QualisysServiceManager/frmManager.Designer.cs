@@ -93,7 +93,7 @@
             this.btnStart.Size = new System.Drawing.Size(74, 29);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Inicio";
-            this.btnStart.UseVisualStyleBackColor = false;
+            this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnLog
@@ -103,7 +103,7 @@
             this.btnLog.Size = new System.Drawing.Size(75, 29);
             this.btnLog.TabIndex = 4;
             this.btnLog.Text = "Log";
-            this.btnLog.UseVisualStyleBackColor = false;
+            this.btnLog.UseVisualStyleBackColor = true;
             this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
             // btnStop
@@ -113,7 +113,7 @@
             this.btnStop.Size = new System.Drawing.Size(74, 29);
             this.btnStop.TabIndex = 3;
             this.btnStop.Text = "Detener";
-            this.btnStop.UseVisualStyleBackColor = false;
+            this.btnStop.UseVisualStyleBackColor = true;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // cboService

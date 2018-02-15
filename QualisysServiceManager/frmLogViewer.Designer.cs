@@ -210,7 +210,7 @@
             this.btnSearch.Size = new System.Drawing.Size(100, 30);
             this.btnSearch.TabIndex = 11;
             this.btnSearch.Text = "Buscar";
-            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // pnlFooter
