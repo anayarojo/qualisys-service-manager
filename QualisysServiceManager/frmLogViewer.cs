@@ -98,14 +98,13 @@ namespace QualisysServiceManager
             {
                 FileInfo lObjFile = new FileInfo(pStrLogFile);
 
-                if ((pArrStrLogFiles.Length == 1) ||
-                   (lObjFile.CreationTime >= pDtmFromDate.Date && lObjFile.CreationTime <= pDtmToDate.Date.AddDays(1)))
+                if (lObjFile.LastWriteTime >= pDtmFromDate.Date && lObjFile.LastWriteTime <= pDtmToDate.Date.AddDays(1))
                 {
                     lLstObjLog.AddRange(GetLogListByFile(lObjFile));
                 }
             }
 
-            return lLstObjLog.OrderByDescending(x => x.Date).ToList();
+            return lLstObjLog.Where(x => x.Date >= pDtmFromDate.Date && x.Date <= pDtmToDate.Date.AddDays(1)).OrderByDescending(x => x.Date).ToList();
         }
 
         private List<LogModel> GetLogListByFile(FileInfo pObjFile)

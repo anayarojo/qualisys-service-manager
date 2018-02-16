@@ -16,13 +16,13 @@
         "Entry"
         {
         "MsmKey" = "8:_06F7579B260C78530ACEB8FC437D9D32"
-        "OwnerKey" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+        "OwnerKey" = "8:_2556AD489F58403688D2FC9819C572E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_1744C298CC9AF2379F2F5340738C5F4F"
-        "OwnerKey" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+        "OwnerKey" = "8:_2556AD489F58403688D2FC9819C572E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -33,8 +33,14 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_2556AD489F58403688D2FC9819C572E2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_26F90E80F72DED8D7EB46DB2AAEAD3FF"
-        "OwnerKey" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+        "OwnerKey" = "8:_2556AD489F58403688D2FC9819C572E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -45,20 +51,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_B86B7E822753177FBB47E2FB3119CDD0"
-        "OwnerKey" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+        "OwnerKey" = "8:_2556AD489F58403688D2FC9819C572E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_D70D88A013F3D5B64AE717956B4DBD92"
-        "OwnerKey" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+        "OwnerKey" = "8:_2556AD489F58403688D2FC9819C572E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -70,7 +70,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+        "OwnerKey" = "8:_2556AD489F58403688D2FC9819C572E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -115,6 +115,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -131,6 +139,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -389,7 +405,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Aplicación para administrar servicios"
         "ARPURLINFOABOUT" = "8:https://www.qualisys.mx/"
-        "ARPPRODUCTICON" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+        "ARPPRODUCTICON" = "8:_2556AD489F58403688D2FC9819C572E2"
         "ARPIconIndex" = "3:32512"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -492,7 +508,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_055B178B402E4B3F9F43F09E9AC51635"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_335D4A2B51DB420D9D7EE4959F163C17"
             {
             "Name" = "8:Administrador de servicios"
             "Arguments" = "8:"
@@ -500,24 +516,24 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:32512"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
-            "Folder" = "8:_59451372A5854E3484755AF792B1F879"
-            "WorkingFolder" = "8:_72A018428D264F209B01C704257E5F57"
-            "Icon" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8B297D373C004336B9131CBC3B574EF4"
-            {
-            "Name" = "8:Administrador de servicios"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:32512"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+            "Target" = "8:_2556AD489F58403688D2FC9819C572E2"
             "Folder" = "8:_E39491DA23834345A6411D4FB788782A"
             "WorkingFolder" = "8:_72A018428D264F209B01C704257E5F57"
-            "Icon" = "8:_A286EC53A4874757B4BF5C4391D67F5B"
+            "Icon" = "8:_2556AD489F58403688D2FC9819C572E2"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FD4F406C8B6442DC94FF4AFB5046B78F"
+            {
+            "Name" = "8:Administrador de servicios"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:32512"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_2556AD489F58403688D2FC9819C572E2"
+            "Folder" = "8:_59451372A5854E3484755AF792B1F879"
+            "WorkingFolder" = "8:_72A018428D264F209B01C704257E5F57"
+            "Icon" = "8:_2556AD489F58403688D2FC9819C572E2"
             "Feature" = "8:"
             }
         }
@@ -919,9 +935,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A286EC53A4874757B4BF5C4391D67F5B"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2556AD489F58403688D2FC9819C572E2"
             {
-            "SourcePath" = "8:..\\QualisysServiceManager\\obj\\Debug\\QualisysServiceManager.exe"
+            "SourcePath" = "8:..\\QualisysServiceManager\\obj\\Release\\QualisysServiceManager.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_72A018428D264F209B01C704257E5F57"
@@ -939,7 +955,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
+            "OutputConfiguration" = "8:Release|Any CPU"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{F5204CD0-0F34-402A-928E-4F3E65CADFBC}"
             "ShowKeyOutput" = "11:TRUE"
