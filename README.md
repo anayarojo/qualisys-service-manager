@@ -25,9 +25,9 @@ Basic configuration
 
 Administration
 
-![Qualisys Service Manager - Administration](./img/administration.jpg)
+![Qualisys Service Manager - Administration](https://github.com/anayarojo/qualisys-service-manager/blob/master/img/administration.JPG)
 
 Log viewer
 
-![Qualisys Service Manager - Log Viewer](./img/log-viewer.jpg)
+![Qualisys Service Manager - Log Viewer](https://github.com/anayarojo/qualisys-service-manager/blob/master/img/log-viewer.JPG)
 
