@@ -78,6 +78,11 @@ namespace QualisysServiceManager
             mObjThread.Start();
         }
 
+        private void btnConfig_Click(object sender, EventArgs e)
+        {
+            ShowConfiguration();
+        }
+
         private void btnLog_Click(object sender, EventArgs e)
         {
             ShowLogViewer(GetServicePath());
@@ -179,6 +184,26 @@ namespace QualisysServiceManager
             finally
             {
                 UpdateButtons();
+            }
+        }
+
+        private void ShowConfiguration()
+        {
+            try
+            {
+                if (IsAdministrator())
+                {
+                    frmConfig lFrmConfig = new frmConfig(GetConfigurationPath());
+                    lFrmConfig.ShowDialog(this);
+                }
+                else
+                {
+                    MessageBox.Show("Favor de iniciar como Administrador.", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception lObjException)
+            {
+                MessageBox.Show(lObjException.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

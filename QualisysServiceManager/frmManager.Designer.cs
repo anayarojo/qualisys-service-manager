@@ -36,6 +36,7 @@
             this.btnLog = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.cboService = new System.Windows.Forms.ComboBox();
+            this.btnConfig = new System.Windows.Forms.Button();
             this.pnlForm.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -54,15 +55,17 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33332F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.Controls.Add(this.btnConfig, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblStatus, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.btnStart, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.btnLog, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.btnStop, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.cboService, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.btnLog, 3, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 18);
@@ -79,7 +82,7 @@
             // 
             this.lblStatus.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblStatus.AutoSize = true;
-            this.tableLayoutPanel1.SetColumnSpan(this.lblStatus, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.lblStatus, 4);
             this.lblStatus.Location = new System.Drawing.Point(3, 72);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(29, 13);
@@ -90,7 +93,7 @@
             // 
             this.btnStart.Location = new System.Drawing.Point(3, 33);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(74, 29);
+            this.btnStart.Size = new System.Drawing.Size(54, 29);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Inicio";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -98,9 +101,9 @@
             // 
             // btnLog
             // 
-            this.btnLog.Location = new System.Drawing.Point(163, 33);
+            this.btnLog.Location = new System.Drawing.Point(183, 33);
             this.btnLog.Name = "btnLog";
-            this.btnLog.Size = new System.Drawing.Size(75, 29);
+            this.btnLog.Size = new System.Drawing.Size(55, 29);
             this.btnLog.TabIndex = 4;
             this.btnLog.Text = "Log";
             this.btnLog.UseVisualStyleBackColor = true;
@@ -108,9 +111,9 @@
             // 
             // btnStop
             // 
-            this.btnStop.Location = new System.Drawing.Point(83, 33);
+            this.btnStop.Location = new System.Drawing.Point(63, 33);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(74, 29);
+            this.btnStop.Size = new System.Drawing.Size(54, 29);
             this.btnStop.TabIndex = 3;
             this.btnStop.Text = "Detener";
             this.btnStop.UseVisualStyleBackColor = true;
@@ -119,7 +122,7 @@
             // cboService
             // 
             this.cboService.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.SetColumnSpan(this.cboService, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.cboService, 4);
             this.cboService.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboService.FormattingEnabled = true;
             this.cboService.Location = new System.Drawing.Point(3, 4);
@@ -127,6 +130,17 @@
             this.cboService.Size = new System.Drawing.Size(235, 21);
             this.cboService.TabIndex = 2;
             this.cboService.SelectedIndexChanged += new System.EventHandler(this.cboService_SelectedIndexChanged);
+            // 
+            // btnConfig
+            // 
+            this.btnConfig.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnConfig.Location = new System.Drawing.Point(123, 33);
+            this.btnConfig.Name = "btnConfig";
+            this.btnConfig.Size = new System.Drawing.Size(54, 29);
+            this.btnConfig.TabIndex = 7;
+            this.btnConfig.Text = "Config";
+            this.btnConfig.UseVisualStyleBackColor = true;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // frmManager
             // 
@@ -161,6 +175,7 @@
         private System.Windows.Forms.Button btnLog;
         private System.Windows.Forms.Button btnStop;
         private System.Windows.Forms.ComboBox cboService;
+        private System.Windows.Forms.Button btnConfig;
     }
 }
 
