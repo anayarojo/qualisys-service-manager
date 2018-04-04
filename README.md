@@ -2,7 +2,7 @@
 
 Service manager configurable for any Windows service
 
-Basic configuration
+Basic configuration file
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -11,10 +11,10 @@ Basic configuration
     <section name="Services" type="QualisysServiceManager.Sections.ServiceSection, QualisysServiceManager" />
   </configSections>
   <Services>
-    <Service 
-      Index="1" 
-      DisplayName="Nombre a mostrar del servicio" 
-      Name="Nombre del servicio" 
+    <Service
+      Index="1"
+      DisplayName="Qualisys Test Service"
+      Name="QualisysTestService"
     />
   </Services>
   <startup>
@@ -25,9 +25,13 @@ Basic configuration
 
 Administration
 
-![Qualisys Service Manager - Administration](https://github.com/anayarojo/qualisys-service-manager/blob/master/img/administration.JPG)
+![Qualisys Service Manager - Administration](https://github.com/anayarojo/qualisys-service-manager/blob/master/img/administration-20180404.JPG)
 
 Log viewer
 
-![Qualisys Service Manager - Log Viewer](https://github.com/anayarojo/qualisys-service-manager/blob/master/img/log-viewer.JPG)
+![Qualisys Service Manager - Log Viewer](https://github.com/anayarojo/qualisys-service-manager/blob/master/img/log-viewer-20180404.JPG)
+
+Configuration
+
+![Qualisys Service Manager - Configuration](https://github.com/anayarojo/qualisys-service-manager/blob/master/img/configuration-20180404.JPG)
 
